@@ -1,0 +1,102 @@
+html {
+    box-sizing: border-box;
+    background-color: black;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+
+
+#task-1{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 250px;
+}
+
+.box-1{
+    width: 100%;
+    height: 100%;
+}
+
+.box-1 .heading{
+    color: green;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.text{
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 15px;
+    letter-spacing: 1px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+#click{
+    color: white;
+    background-color: green;
+    padding: 1rem;
+    width: 150px;
+    border-radius: 50px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+
+#task-2{
+    background-color: orangered;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    width: 75%;
+    height: 500px;
+}
+.box-2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.heading{
+    color:  greenyellow;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 30px;
+}
+.sub-box{
+    width: 350px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#sub-box-1{
+    margin-left: 20px;
+}
+
+#line{
+    border-bottom: solid orangered;
+    margin: 0 9px 0 9px;
+}
+
+.box-2 .text{
+    color: gray;
+    font-size: small;
+    margin: 5px 11px 5px 11px ;
+    text-align: left;
+    text-indent: 1px;
+}
