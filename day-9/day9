@@ -1,0 +1,33 @@
+# Kali OS
+
+1. Turn On your kali Linux 
+
+2. User :kali | pass :kali
+
+3. Open the Terminal kali linux 
+
+ 
+
+4. Kalinux 
+
+	ifconfig
+
+	ifconfig
+
+	pwd
+
+	cd
+
+	ls
+
+	ls -a
+
+	sudo su
+
+	
+
+5. man nmap 
+
+ 
+
+6. nmap -A -T4 scanme.nmap.org
