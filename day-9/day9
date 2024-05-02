@@ -8,7 +8,7 @@
 
  
 
-4. Kalinux 
+4. Kalinux  commands
 
 	ifconfig
 
@@ -31,3 +31,63 @@
  
 
 6. nmap -A -T4 scanme.nmap.org
+
+
+5. Whois certifiedhacker.com
+
+6. https://www.wappalyzer.com/lookup/certifiedhacker.com/
+
+7. Dnsdumpster 
+
+8. Whois. :
+
+
+## WOrking oil the installation and working with open projects
+
+### What is OWASP
+
+### OWASP Juise shop 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Working oil the Installation and Working With Open Projects. 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Open Web Application Security project
+
+OWASP.
+
+ 
+
+1 : Was Juice Shop Search 
+
+2. Then Copy the Link. 
+
+3. Click on green Button.
+
+4. Copy the Link : https://github.com/juice-shop/juice-shop.git
+
+ 
+
+ 
+
+5. Open Terminal 
+
+6. sudo su
+
+7. cd Desktop
+
+8. mkdir Projects 
+
+9. git clone https://github.com/juice-shop/juice-shop.git
+
+10. cd Juice-shop
+
+11. Install the Docker 
+
+	apt install docker
+
+12. docker pull bkimminich/juice-shop
+
+13. docker run --rm -p 3000:3000 bkimminich/juice-shop
